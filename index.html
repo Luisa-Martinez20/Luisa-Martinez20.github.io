@@ -1,37 +1,76 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Mi página personal</title>
-        <link href="/styles/estilopersonal.css" rel="stylesheet" type="text/css">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-    </head>
-    <body>
-        
-        <header> 
-            <h1 id="letras">  <br> Hola, soy Luisa Martínez</h1>
-            <img id="im" src="imagenes/yo.jpeg"  width="200 px" height="280 px" > 
-            <nav> 
-                <a href="index.html">Home</a>
-                <a href="About.html">About</a>
-                <a href="Contact.html">Contact</a>
-            </nav>
-        </header>
-       
-        <section>
-            <h1> Bienvenido, disfruta el momento!!!</h1>
-            <p> Este pequeño espacio está dedicado para compartir 
-                algunos momentos importantes de mi vida contigo. Gracias</p>
-            <p> Espero me leas con atención. </p>    
-        </section>
-        <section>
-            <aside> </aside>
-        </section>
-        <footer>Derechos Reservados: Luisa Martínez</footer>
-       
-    </body>
+<html lang="en">
+<head>
+  <title>Mi página personal</title>
+  <script src="https://kit.fontawesome.com/28b0acf733.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/estilopersonal.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Mi sitio Web</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+<div class="jumbotron text-center">
+  <h2>Hola, soy Luisa Martínez</h2>
+  <p>
+    <img id="im" src="imagenes/yo.jpeg"  width="200 px" height="280 px" > 
+  </p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+        <div class="b-social">
+            <div class="btn-group-vertical" role="group">
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" class="btn btn-outline-dark " role="button" aria-pressed="true"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/Luisa-Martinez20/Luisa-Martinez20.github.io" target="_blank" class="btn btn-outline-dark " role="button" aria-pressed="true"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" class="btn btn-outline-dark " role="button" aria-pressed="true"><i class="fab fa-facebook " ></i></a>
+                <a href="https://www.instagram.com/alaskamartinez/?hl=es" target="_blank" class="btn btn-outline-dark " role="button" aria-pressed="true"><i class="fab fa-instagram w-10px" ></i></a>
+            </div>
+          </div>
+   <div id="frases">      
+   <h3>Dedica 5 minutos al día solo para leer</h3>
+   <p>"Si Dios nos escucha se nos resuelve un problema, 
+       si escuchamos a Dios se nos resuelve la vida"
+   </p>
+  
+   <p>"El antídoto de la desesperación es la acción"</p>
+</div> 
+    </div>
+    <div class="col-sm-8" >
+  <article id="centro">
+      <h3 id="letras">Bienvenido a mi página web</h3>
+      <p id="letras">Un espacio creado para compartir algunas experiencias de mi vida</p>
+      <p><img src="/imagenes/riobueno.jpeg" alt="" width="300" height="400" ></p>
+    </article>
+    </div>
+    <div id="frases" class="col-sm-2">
+      <h3 id="letras">Conoce sobre mí</h3>   
+      <p>Espero que te guste conocer un poco sobre mí, los lugares que he visitado
+          tambien lo que he aprendido en la parte laboral, como niñera, profesora y cajera. </p>
+      <p>Para mí ha sido una experiencia muy bonita, porque me ayudó a crecer como persona.</p>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<footer>Todos los derechos reservados @Luisa Martínez 
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-facebook-messenger"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-whatsapp"></i>
+</footer>
+</body>
 </html>

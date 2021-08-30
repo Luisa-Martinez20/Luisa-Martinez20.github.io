@@ -1,30 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link href="/styles/estilopersonal.css" rel="stylesheet" type="text/css">
+  <title>Contacto</title>
+  <script src="https://kit.fontawesome.com/28b0acf733.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/styles/estilopersonal.css">
+
+
 </head>
 <body>
-    <h1 id="letras"> Información de contacto</h1>
-    <section> 
-        <article>
-            <div class="columnas">
-            <p>
-             Número de celular: +56931001461 <br>
-             E-mail: lmartinezm16_1@unc.edu.pe <br>
-            </p>
-            <p>  Facebook: Luisa Martínez Machado <br>
-                <img src="/imagenes/fb.PNG" width="110 px" height="70 px" ><br></p>
-                <p>
-                    Instagram: Alaska Martínez <br>
-                    <img src="/imagenes/instagram.PNG" width="200 px" height="80 px">
-                </p>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Mi sitio Web</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>      
+          </ul>
+        </div>
+      </nav>
+<div class="jumbotron text-center">
+
+  <h2>Contacto</h2>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+       <div class="b-social">
+            <div class="btn-group-vertical" role="group">
+               
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" class="btn btn-outline-dark " role="button" aria-pressed="true"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/Luisa-Martinez20/Luisa-Martinez20.github.io" target="_blank" class="btn btn-outline-dark " role="button" aria-pressed="true"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" class="btn btn-outline-dark " role="button" aria-pressed="true"><i class="fab fa-facebook " ></i></a>
+                <a href="https://www.instagram.com/alaskamartinez/?hl=es" target="_blank" class="btn btn-outline-dark " role="button" aria-pressed="true"><i class="fab fa-instagram w-10px" ></i></a>
             </div>
-        </article>
-    </section><br>
-    <footer>Todos los derechos reservados @Luisa Martínez</footer>
+          </div>
+          <div id="frases">
+          <h3> Leer es alimentarse...</h3>
+          <p>Rara vez nos damos cuenta que estamos rodeados por lo extraordinario</p>
+          <p>Lo único imposible es aquello que no intentas.</p>
+          <p>Sigue corriendo, no dejes que tus excusas te alcancen.</p>
+        </div>
+    </div>
+    <div class="col-sm-8" >
+      <h3>Completa tus datos y comunícate conmigo</h3>
+      <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email:</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Número de contacto:</label>
+          <div class="col-sm-10">
+            <input type="numero" class="form-control" id="pwd" placeholder="Enter numero">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-sm-2">
+        <div id="frases">
+      <h3></h3>        
+      <p>"Apunta hacia la luna, <br>
+          si fallas aterrizarás <br>
+           entre las estrellas"</p>
+        </div>
+    </div>
+  </div>
+</div>
+<footer>Todos los derechos reservados @Luisa Martínez 
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-facebook-messenger"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-whatsapp"></i>
+</footer>
+
 </body>
 </html>

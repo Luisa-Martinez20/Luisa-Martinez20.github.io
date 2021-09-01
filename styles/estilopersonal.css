@@ -3,18 +3,38 @@
     height: 400px;
     padding: 20px;  
 }*/
-head{
-    
+
+header{  
+    width: 100%;
+    background: url(/imagenes/he.jpg);
+    font-size: 100%;
+    text-align: right;
+}
+
+#fotos{
+    border-radius: 150px;
+    border-color: black;
+    border-right: initial;
+    margin-right: 300px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-top: 50px;
 }
 #encabezado{
     background:#ec7c7b ;
+    background-image: url(/imagenes/he.jpg);
 }
 body{
-    background: #f3f3e3;
+    background: #dcd1b4;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: beige;
 }
 #letras {
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: center;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align: center;
+     color: bisque;
 }
 .b-social{
     color: #5d9fa3;
@@ -38,9 +58,13 @@ article{
 }
 #frases{
     background:#ec7c7b;
-    border: #85c5a7 1px solid;
+    border:bisque 5px solid;
+    text-align:center;
 }
 #centro{
     background: #dcd1b4;
     text-align: center;
+}
+section{
+    background-color: bisque;
 }

@@ -1,0 +1,40 @@
+body{
+    background-color: lightblue;
+}
+#titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#labelAzul{
+    background-color: #426FF5;
+    border: solid 1px;
+    Border-color:black; 
+    color: white; 
+    text-align: left;
+}
+#labelNaranja{
+    background-color: #BA3B14;
+    border: solid 1px;
+    border-color: brown;
+    color: white; 
+    text-align: left;
+}
+#extraer{
+   background-color: #FFB51E; 
+   border: solid 1px;
+   color: white;
+   border-radius: 5px;
+}
+#colorear{
+    background-color: #BA3B14;
+    color: white;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: brown;   
+}
+#vacio{
+    border: solid 1px;
+    border-radius: 0;
+    border-color: #B83F0B ;
+}

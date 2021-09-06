@@ -33,7 +33,11 @@ body{
     border-radius: 5px;
     border-color: brown;   
 }
-#vacio{
+
+section{
+    margin: 30px;
+}
+.form-control{
     border: solid 1px;
     border-radius: 0;
     border-color: #B83F0B ;

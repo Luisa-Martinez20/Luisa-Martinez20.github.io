@@ -1,6 +1,6 @@
 (function(){
     window.onload = function(){
- 
+
     let nombres = document.getElementById("nomAp");
     let fecha = document.getElementById("fechaNac");
     let btnextraer = document.getElementById("extraer");
@@ -10,7 +10,8 @@
     let longitud = document.getElementById("Longitud");
     let edad = document.getElementById("edad");
     let mes = document.getElementById("mes");
-        
+    let btncolorear = document.getElementById("colorear");
+            
     function extraerPalabras(){
         let separar = nombres.value.split(' ');
         paterno.value = separar[0];
@@ -43,9 +44,22 @@
            return meses[mesCumple-1];
         }
 
-
     }
-    btnextraer.onclick =extraerPalabras;
+
+    function colorear(){ 
+        let azul= document.getElementsByClassName("col-sm-4");
+        let rojo= document.getElementsByClassName("col-sm-5");
+       for(let i=0;i<=azul.length-1; i++){
+          azul[i].style.backgroundColor = (azul[i].style.backgroundColor==="rgb(186, 59, 20)")? "#426FF5":"#BA3B14";
+          
+       } 
+       for(let i=0;i<=rojo.length-1; i++){
+        rojo[i].style.backgroundColor = (rojo[i].style.backgroundColor==="rgb(66, 111, 245)")? "#BA3B14":"#426FF5"; 
+     } 
+    }
+    btnextraer.onclick = extraerPalabras;
+    btncolorear.onclick = colorear;
+    
 };
 })();
 

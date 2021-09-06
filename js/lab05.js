@@ -16,14 +16,14 @@
         paterno.value = separar[0];
         materno.value = separar[1];
         mostrarnombres.value = separar[2] + " " + separar[3];
-        longitud.value = paterno.value.length + 1;
+        longitud.value = paterno.value.length;
 
         let fechaActual= new Date();
         let anioActual = fechaActual.getFullYear();
         let separarFecha =fecha.value.split('-');
         edad.value = anioActual-separarFecha[0];
         let mesCumple = separarFecha[1];
-        
+
         mes.value = convertirMes(mesCumple);     
         function  convertirMes( mesCumple ){
             meses = [
